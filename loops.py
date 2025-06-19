@@ -11,6 +11,25 @@ while count >= 100:
     print(count)
     count -= 1
 
+#Break and Continue
+a =20
+while a <= 25:
+    print(a)
+    if a== 23:
+        break
+    a +=1
+
+counter =35
+while counter <=40:
+    if counter ==37:
+        counter +=1
+        continue
+    print(counter)
+    counter +=1
+
+
+
+
 #For loop
 languages =["Python", "C++","java","PHP"]
 for lang in languages:
@@ -22,5 +41,5 @@ for num in range(5):
 for x in range(10,15):
     print(x)
 
-for x in range (10,20,3):
+for z in range (10,20,3):
     print(z)
